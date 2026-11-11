@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", Arial, sans-serif;
+    color: #222222;
+    background-color: #1c1c1c;
+}
+
+body > * {
+    max-width: 320px;;
+    margin: 0 auto;
+    background-color: white;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.faixa-vermelha.topo{
+    height: 50px;
+    background-color: #cc3029;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 2px solid #cc3029;
+}
+
+.botao-menu{
+    width: 15%;
+}
+.logo{
+    width: 5%;
+}
+.botao-pesquisa{
+    width: 10%;
+}
+
+.linhabanner1{
+    border: 1px solid #cc3029;
+}
+.banner img{
+    height: 180px;
+    object-fit: cover;
+}
+.linhabanner2{
+    border: 2px solid #cc3029;
+}
+
+.titulo-vermelho{
+    color: #cc3029;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.automobilismo-caixadestaque{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+.caixa-de-destaque{
+    width: 130px;
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #cc3029;
+    overflow: hidden;
+}
+
+.destaque-linha1,
+.destaque-linha2,
+.destaque-linha3{
+    margin: 0;
+    padding: 8px 6px;
+}
+
+.destaque-linha1{
+    border-bottom: 1px solid #cc3029;
+    font-weight: normal;
+    color: #cc3029;
+    background-color: white;
+}
+
+.destaque-linha2{
+    border-bottom: 1px solid #cc3029;
+    font-weight: normal;
+    color: #cc3029;
+    background-color: white;
+}
+
+.destaque-linha3{
+    font-weight: bold;
+    color: white;
+    background-color: #cc3029;
+}
+
+.imagem-texto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 15px;
+}
+
+.escola{
+    width: 120px;
+    height: 120px;
+}
+
+.informacoes{
+    display:flex;
+    flex-direction: column;
+    color:#222222;
+    font-size: 10px;
+    gap: 15px;
+}
+
+.click{
+    width: 100%;
+    height: 50%;
+    background-color: #cc3029;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.automotiva{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 15px;
+    background-color: #e3d5d5;;
+}
+
+.titulo1{
+    font-size: 15px;
+    font-weight: bold;
+    color: #cc3029;
+}
+
+.textinho{
+    font-size: 10px;
+    color: #222222;
+}
+
+.grade-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+}
+
+.fileira{
+    display: flex;
+    gap: 10px;
+}
+
+.fileira > div {
+    flex: 1;
+}
+
+.caixa-vermelha{
+    background-color: #cc3029;
+    min-height: 100px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tit{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.tit2{
+    font-size: 10px;
+    color: white;
+}
+
+.caixa-cinza{
+    background-color: #e5e5ea;
+    min-height: 100px;
+    color: #222222;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faixa-rodape{
+    width: 100%;
+    height: 32px;
+    background-color: #ff0000 ;
+}
+
+.conteudo-rodape{
+    width: 100%;
+    height: 80px;
+    background-color :#cc3029;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.linhasgerais{
+    border: 1px solid #e5e5ea;
+}

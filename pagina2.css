@@ -1,0 +1,268 @@
+:root {
+    --vermelho: #b23a33;
+    --vermelho-vivo: #e53425;
+    --cinza-fundo: #e4e4e8;
+    --cinza-caixa: #d9d9d6;
+    --cinza-card: #d9d9d9;
+    --borda-card: #cfcfcf;
+    --texto: #1a1a1a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", Arial, sans-serif;
+    color: #222222;
+    background-color: #1c1c1c;
+}
+
+body > * {
+    max-width: 320px;;
+    margin: 0 auto;
+    background-color: white;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.faixa-vermelha-topo{
+    height: 20px;
+    background: var(--vermelho);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0 25px;
+    background: white;
+}
+
+.botao-menu{
+    width: 50%;
+    height: auto;
+}
+.logo{
+    width: 10%;
+    height: auto;
+}
+.botao-pesquisa{
+    width: 15%;
+    height: auto;
+}
+
+.linhabanner1{
+    border: 1px solid #cc3029;
+}
+
+.linhabanner2{
+    border: 2px solid #cc3029;
+}
+
+.banner-principal{
+    background: #000;
+    height: 180px;
+    overflow: hidden;
+}
+
+.bugatti{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.apresentacao{
+    position: relative;
+    background: var(--cinza-fundo);
+    padding: 56px 0 24px;
+    overflow: hidden;
+}
+
+/* bolinhas decorativas */
+.apresentacao::before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    width: 235px;
+    height: 100px;
+    background-image: radial-gradient(#cfcfd4 3px, transparent 3.5px);
+    background-size: 12px 12px;
+}
+
+.caixa-cinza {
+    position: relative;
+    margin-left: 20%;
+    padding: 0 22px 24px 30px;
+    background: var(--cinza-caixa);
+}
+
+.titulo-vermelho {
+    position: relative;
+    top: -22px;
+    margin-bottom: -6px;
+    margin-left: -10px;
+    font-size: 26px;
+    font-weight: 800;
+    color: var(--vermelho);
+    letter-spacing: 0.5px;
+}
+
+.caixa-cinza p {
+    font-size: 11px;
+    line-height: 1.35;
+    text-align: justify;
+}
+
+/* ========== Seção branca ========== */
+.secao-branca {
+    padding: 28px 28px 34px;
+    background: #fff;
+}
+
+.subtitulo,
+.subtitulo-vermelho {
+    margin-bottom: 14px;
+    font-size: 15px;
+    font-weight: 800;
+    color: var(--vermelho);
+}
+
+.secao-branca p {
+    font-size: 13px;
+    line-height: 1.45;
+    text-align: justify;
+}
+
+.secao-branca p.texto-pequeno {
+    font-size: 10px;
+    line-height: 1.4;
+    text-align: left;
+    color: #444;
+}
+
+.imagem-conteudo {
+    width: 100%;
+    height: 200px;
+    margin-top: 32px;
+    object-fit: cover;
+}
+
+/* ========== Seção vermelha ========== */
+.secao-vermelha {
+    padding: 28px 24px 30px;
+    background: var(--vermelho);
+    color: #fff;
+    text-align: right;
+}
+
+.secao-vermelha h2 {
+    margin-bottom: 18px;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.secao-vermelha p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.35;
+}
+
+.secao-vermelha p strong {
+    font-weight: 700;
+}
+
+.secao-vermelha ul {
+    list-style: none;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.35;
+}
+
+.secao-vermelha li {
+    margin-left: auto;
+    max-width: 75%;
+    margin-bottom: 8px;
+}
+
+.secao-vermelha li::before {
+    content: "• ";
+}
+
+/* "Nossas tecnologias" tem texto menor */
+.secao-vermelha h2 + p:nth-of-type(1) {
+    margin-top: 0;
+}
+
+/* ========== Cards (grade e equipe) ========== */
+.tres-colunas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+    margin-top: 16px;
+}
+
+.mini-cartao,
+.cartao-mini {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid var(--borda-card);
+    border-radius: 6px;
+    background: #fff;
+}
+
+.mini-cartao .fundo,
+.cartao-mini .foto-cinza {
+    position: relative;
+    height: 98px;
+    background: var(--cinza-card);
+}
+
+.mini-cartao .legenda,
+.cartao-mini .legenda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 22px;
+    padding: 2px 4px;
+    font-size: 8px;
+    text-align: center;
+    background: #fff;
+}
+
+/* foto redonda dos professores */
+.foto-professor {
+    position: absolute;
+    left: 50%;
+    bottom: -18px;
+    width: 48px;
+    height: 48px;
+    transform: translateX(-50%);
+    border: 1px solid var(--borda-card);
+    border-radius: 50%;
+    background: #fff;
+}
+
+/* ========== Rodapé ========== */
+footer {
+    margin-top: 40px;
+}
+
+.faixa-rodape {
+    height: 30px;
+    background: var(--vermelho-vivo);
+}
+
+.conteudo-rodape {
+    height: 90px;
+    background: var(--vermelho);
+}
