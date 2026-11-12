@@ -1,10 +1,10 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
+body{
     font-family: "Montserrat", Arial, sans-serif;
     color: #222222;
     background-color: #1c1c1c;
@@ -68,7 +68,7 @@ header{
     border: 2px solid #cc3029;
 }
 
-nome-do-curso{
+.nome-do-curso{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@ nome-do-curso{
     font-weight: 900;
 }
 
-imagem-e-texto{
+.imagem-e-texto{
     display: flex;
     justify-content: space-between;
     align-items: center;
