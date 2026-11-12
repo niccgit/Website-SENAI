@@ -91,3 +91,20 @@ header a {
     line-height: 1.35;
     text-align: justify;
 }
+
+.secao-branca{
+    padding: 28px 28px 34px;
+}
+
+.subtitulo-vermelho {
+    margin-bottom: 14px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #b23a33;
+}
+
+.texto-medio{
+    font-size: 15px;
+    line-height: 1.45;
+    text-align: justify; 
+}
