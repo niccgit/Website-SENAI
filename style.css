@@ -57,10 +57,12 @@ header{
 .linhabanner1{
     border: 1px solid #cc3029;
 }
-.banner img{
+
+.banner{
     height: 180px;
     object-fit: cover;
 }
+    
 .linhabanner2{
     border: 2px solid #cc3029;
 }
