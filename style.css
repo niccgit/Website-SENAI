@@ -20,6 +20,17 @@ img{
     display: block;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.linhasgerais {
+    border: 1px solid #e5e5ea;
+}
+
+
 .faixa-vermelha.topo{
     height: 50px;
     background-color: #cc3029;
@@ -136,12 +147,6 @@ header{
     border-radius: 25px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-    font-size: 10px;
-}
-
 .automotiva{
     display: flex;
     justify-content: space-between;
@@ -231,8 +236,4 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
-}
-
-.linhasgerais{
-    border: 1px solid #e5e5ea;
 }
