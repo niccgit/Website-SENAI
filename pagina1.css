@@ -122,3 +122,28 @@ header a {
     margin-top: 32px;
     object-fit: cover;
 }
+
+.secao-vermelha{
+    padding: 28px 24px 30px;
+    background-color: #b23a33;
+    color: white;
+    text-align: right;
+}
+
+.subtitulo-branco{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: white;
+}
+
+.secao-vermelha p{
+    font-size: 12px;
+    line-height: 1.45;
+    color: white;
+}
+
+.secao-vermelha strong{
+    font-weight: 700;
+}
