@@ -136,7 +136,7 @@ imagem-e-texto{
     color: #222222;
 }
 
-.grade-cards{
+.grade-de-cards{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -148,40 +148,38 @@ imagem-e-texto{
     gap: 10px;
 }
 
-.fileira > div {
+.fileira > div{
     flex: 1;
 }
 
 .caixa-vermelha{
-    background-color: #cc3029;
-    min-height: 100px;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.tit{
-    font-size: 15px;
-    font-weight: bold;
+    min-height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #cc3029;
     color: white;
-}
-
-.tit2{
-    font-size: 10px;
-    color: white;
+    text-align: center;
 }
 
 .caixa-cinza{
-    background-color: #e5e5ea;
     min-height: 100px;
-    color: #222222;
-    text-align: center;
     padding: 10px;
     border-radius: 5px;
+    background-color: #e5e5ea;
+    color: #222222;
+    text-align: center;
+}
+
+.conteudo1{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.conteudo2{
+    font-size: 10px;
 }
 
 footer{
