@@ -45,7 +45,7 @@ header a {
 }
 
 .linhabanner1{
-    border: 2px solid #cc3029;    
+    border: 1px solid #cc3029;
 }
 
 .banner-principal{
@@ -155,7 +155,7 @@ header a {
     margin-top: 15px;
 }
 
-mini-cartao{
+.mini-cartao{
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -176,7 +176,7 @@ mini-cartao{
     align-items: center;
     min-height: 25px;
     padding: 2px 4px;
-    font-size: 5px;
+    font-size: 8px;
     text-align: center;
 }
 
