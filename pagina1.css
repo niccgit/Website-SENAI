@@ -96,15 +96,29 @@ header a {
     padding: 28px 28px 34px;
 }
 
-.subtitulo-vermelho {
-    margin-bottom: 14px;
+.subtitulo-vermelho{
+    margin-bottom: 15px;
     font-size: 20px;
     font-weight: 800;
     color: #b23a33;
 }
 
 .texto-medio{
-    font-size: 15px;
+    font-size: 12px;
     line-height: 1.45;
-    text-align: justify; 
+    text-align: justify;
+    color: #444444;
+}
+
+.texto-pequeno{
+    font-size: 10px;
+    line-height: 1.4;
+    text-align: left;
+    color: #444444;
+}
+
+.imagem-pintura{
+    height: 200px;
+    margin-top: 32px;
+    object-fit: cover;
 }
