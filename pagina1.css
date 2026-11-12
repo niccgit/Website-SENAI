@@ -25,3 +25,21 @@ img{
     height: 50px;
     background-color: #cc3029;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 2px solid #cc3029;
+}
+
+.botao-menu{
+    width: 15%;
+}
+header a {
+    width: 5%;
+}
+.botao-pesquisa{
+    width: 10%;
+}
