@@ -147,3 +147,10 @@ header a {
 .secao-vermelha strong{
     font-weight: 700;
 }
+
+.tres-colunas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-top: 15px;
+}
