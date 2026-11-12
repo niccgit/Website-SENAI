@@ -62,3 +62,32 @@ header a {
 .linhabanner2{
     border: 2px solid #cc3029;
 }
+
+.apresentacao{
+    padding: 56px 0 24px;
+    background-color: #e4e4e8;
+    overflow: hidden;
+}
+
+.caixa-de-informacao{
+    position: relative;
+    margin-left: 10%;
+    padding: 0 20px 20px 20px;
+    background-color: #d9d9d6;
+}
+
+.titulo{
+    position: relative;
+    top: -25px;
+    margin-left: -10px;
+    margin-bottom: -5px;
+    font-size: 25px;
+    font-weight: 800;
+    color: #b23a33;
+}
+
+.caixa-de-informacao p{
+    font-size: 10px;
+    line-height: 1.35;
+    text-align: justify;
+}
