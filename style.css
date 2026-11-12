@@ -31,13 +31,13 @@ a {
 }
 
 
-.faixa-vermelha-topo {
+.faixa-vermelha-topo{
     height: 50px;
     background-color: #cc3029;
 }
 
 header{
-    display:flex;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
