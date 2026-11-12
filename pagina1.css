@@ -191,3 +191,26 @@ mini-cartao{
     border-radius: 50%;
     background-color: white;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faixa-rodape{
+    width: 100%;
+    height: 30px;
+    background-color: #ff0000;
+}
+
+.conteudo-rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 10px 15px;
+    background-color: #cc3029;
+}
