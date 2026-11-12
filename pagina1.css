@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", Arial, sans-serif;
+    color: #222222;
+    background-color: #1c1c1c;
+}
+
+body > * {
+    max-width: 320px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.faixa-vermelha-topo{
+    height: 50px;
+    background-color: #cc3029;
+}
