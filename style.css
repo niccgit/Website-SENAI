@@ -243,3 +243,16 @@ footer{
         padding: 10px;
         font-size: 15px;
     }
+
+    .automotiva{
+        gap: 60px;
+        padding: 40px 40px;
+    }
+    .titulo1{
+        font-size: 25px;
+    }
+    .textinho{
+        width: 80%;
+        font-size: 15px;
+        line-height: 1.5;
+    }
