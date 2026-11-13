@@ -31,7 +31,6 @@ a {
     border: 1px solid #e5e5ea;
 }
 
-
 .faixa-vermelha-topo{
     height: 50px;
     background-color: #cc3029;
@@ -278,3 +277,17 @@ footer{
     .conteudo2{
         font-size: 15px;
     }
+
+    .separador{
+        display: block;
+        background-color: black;
+        width: 100%;
+        height: 20px;
+    }
+    .faixa-rodape{
+        height: 60px;
+    }
+    .conteudo-rodape{
+        height: 200px;
+    }
+}
