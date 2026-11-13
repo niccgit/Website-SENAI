@@ -205,3 +205,21 @@ footer{
     padding: 10px 15px;
     background-color: #cc3029;
 }
+
+@media (min-width: 768px){
+   
+    body > * {
+        max-width: 768px;
+    }
+
+    .banner{
+        height: 340px;
+    }
+
+    .nome-do-curso{
+        padding: 40px 40px;
+    }
+
+    .titulo{
+        font-size: 40px;
+    }
