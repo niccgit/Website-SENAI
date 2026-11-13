@@ -256,3 +256,25 @@ footer{
         font-size: 15px;
         line-height: 1.5;
     }
+
+    .grade-de-cards{
+        gap: 20px;
+        padding: 30px 30px;
+    }
+    .fileira{
+        gap: 20px;
+    }
+    .caixa-vermelha{
+        min-height: 180px;
+        padding: 20px;
+    }
+    .caixa-cinza{
+        min-height: 180px;
+        padding: 20px;
+    }
+    .conteudo1{
+        font-size: 25px;
+    }
+    .conteudo2{
+        font-size: 15px;
+    }
