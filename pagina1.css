@@ -305,3 +305,13 @@ footer{
         height: 200px;
     }
 }
+
+@media (min-width: 1024px){
+
+    body > * {
+        max-width: 1024px;
+    }
+
+    .banner-principal{
+        height: 420px;
+    }
