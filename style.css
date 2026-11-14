@@ -290,6 +290,12 @@ footer{
     .conteudo-rodape{
         height: 200px;
     }
+    .botao-menu{
+        width: 5%;
+    }
+    .botao-pesquisa{
+        width: 5%;
+    }
 }
 
 @media (min-width: 1024px){
@@ -376,5 +382,11 @@ footer{
     }
     .conteudo-rodape{
         height: 210px;
+    }
+    .botao-menu{
+        width: 5%;
+    }
+    .botao-pesquisa{
+        width: 5%;
     }
 }
