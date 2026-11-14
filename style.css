@@ -291,3 +291,21 @@ footer{
         height: 200px;
     }
 }
+
+@media (min-width: 1024px){
+
+    body > * {
+        max-width: 1024px;
+    }
+    
+    .banner{
+        height: 420px;
+    }
+
+    .nome-do-curso{
+        padding: 50px 50px;
+    }
+
+    .titulo{
+        font-size: 50px;
+    }
