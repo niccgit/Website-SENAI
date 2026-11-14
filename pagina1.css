@@ -336,3 +336,16 @@ footer{
         line-height: 1.4;
         color: white;
     }
+
+    .secao-branca{
+        padding: 60px 100px 70px;
+    }
+    .subtitulo-vermelho{
+        font-size: 45px;
+    }
+    .texto-medio{
+        font-size: 30px;
+    }
+    .imagem-pintura{
+        height: 340px;
+    }
