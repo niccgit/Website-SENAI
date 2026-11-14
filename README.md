@@ -1,8 +1,5 @@
 # Website-SENAI
 
-
-## Website SENAI - Curso de Automotiva
-
 Este foi um projeto feito em sala de aula, na matéria de Linguagem de Marcação (LIMA), em que a equipe devia desenvolver um website de divulgação para o curso de Automotiva da escola SENAI Prof. Vicente Amato - Jandira.
 
 
