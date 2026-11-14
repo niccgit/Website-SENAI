@@ -315,3 +315,24 @@ footer{
     .banner-principal{
         height: 420px;
     }
+
+    .apresentacao{
+        padding: 25px 0px;
+        background-color: #cc3029;
+    }
+    .caixa-de-informacao{
+        margin: 10%;
+        padding: 10px 10px 20px 20px;
+        background-color: #ff0000;
+    }
+    .titulo{
+        top: 0;
+        padding: 10px;
+        font-size: 60px;
+        color: white;
+    }
+    .caixa-de-informacao p{
+        font-size: 25px;
+        line-height: 1.4;
+        color: white;
+    }
