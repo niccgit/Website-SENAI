@@ -261,3 +261,14 @@ footer{
         height: 340px;
         margin-top: 40px;
     }
+    
+    .secao-vermelha{
+        padding: 50px 50px 50px;
+    }
+    .subtitulo-branco{
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .secao-vermelha p{
+        font-size: 18px;
+    }
