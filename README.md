@@ -32,10 +32,10 @@ Na escolha da estrutura, o site foi pensado com a ideia de mobile-first e depois
 - Repositório: https://github.com/niccgit/Website-SENAI.git
 
 
-## Equipe
+## Equipe/Contribuidores
 
 | Nome | Função |
 |---|---|
-| _[Nicolly J. Lima]_ | _[Responsável pelo desenvolvimento da tela Mobile.]_ |
-| _[Rodrigo]_ | _[Responsável pelo desenvolvimento da tela do iPad Mini.]_ |
-| _[Henrique]_ | _[Responsável pelo desenvolvimento da tela Desktop.]_ |
+| _Nicolly J. Lima]_ | Responsável pelo desenvolvimento da tela Mobile. |
+| _Rodrigo S. Souza_ | Responsável pelo desenvolvimento da tela do iPad Mini. |
+| _Henrique Araújo_ | Responsável pelo desenvolvimento da tela Desktop. |
