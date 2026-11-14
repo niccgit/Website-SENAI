@@ -375,5 +375,20 @@ footer{
         width: 110px;
         height: 110px;
     }
+ 
+    .separador{
+        display: block;
+        background-color: black;
+        width: 100%;
+        height: 20px;
+    }
+    .faixa-rodape{
+        height: 70px;
+    }
+    .conteudo-rodape{
+        height: 210px;
+    }
+}
+
 
 
