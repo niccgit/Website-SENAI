@@ -33,6 +33,6 @@ Na escolha da estrutura, o site foi pensado com a ideia de mobile-first e depois
 
 | Nome | Função |
 |---|---|
-| _Nicolly J. Lima]_ | Responsável pelo desenvolvimento da tela Mobile. |
+| _Nicolly J. Lima_ | Responsável pelo desenvolvimento da tela Mobile. |
 | _Rodrigo S. Souza_ | Responsável pelo desenvolvimento da tela do iPad Mini. |
 | _Henrique Araújo_ | Responsável pelo desenvolvimento da tela Desktop. |
