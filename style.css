@@ -309,3 +309,23 @@ footer{
     .titulo{
         font-size: 50px;
     }
+
+    .imagem-e-texto{
+        gap: 80px;
+        padding: 50px 80px;
+    }
+    .escola{
+        width: 320px;
+        height: 320px;
+    }
+    .informacoes{
+        gap: 30px;
+        font-size: 18px;
+    }
+    .nome-da-escola{
+        font-size: 32px;
+    }
+    .click{
+        padding: 14px;
+        font-size: 18px;
+    }
