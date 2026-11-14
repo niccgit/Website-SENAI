@@ -272,3 +272,23 @@ footer{
     .secao-vermelha p{
         font-size: 18px;
     }
+
+    .tres-colunas{
+        gap: 10px;
+        margin-top: 25px;
+    }
+    .mini-cartao{
+        border-radius: 10px;
+    }
+    .fundo{
+        height: 190px;
+    }
+    .legenda{
+        min-height: 40px;
+        font-size: 14px;
+    }
+    .foto-professor{
+        width: 90px;
+        height: 90px;
+    }
+    
