@@ -342,3 +342,25 @@ footer{
         font-size: 20px;
         line-height: 1.5;
     }
+
+    .grade-de-cards{
+        gap: 40px;
+        padding: 60px 60px;
+    }
+    .fileira{
+        gap: 40px;
+    }
+    .caixa-vermelha{
+        min-height: 220px;
+        padding: 30px;
+    }
+    .caixa-cinza{
+        min-height: 220px;
+        padding: 30px;
+    }
+    .conteudo1{
+        font-size: 30px;
+    }
+    .conteudo2{
+        font-size: 18px;
+    }
