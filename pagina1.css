@@ -301,8 +301,15 @@ footer{
     .faixa-rodape{
         height: 60px;
     }
-    .conteudo-rodape {
+    .conteudo-rodape{
         height: 200px;
+    }
+
+    .botao-menu{
+        width: 5%;
+    }
+    .botao-pesquisa{
+        width: 5%;
     }
 }
 
@@ -387,6 +394,13 @@ footer{
     }
     .conteudo-rodape{
         height: 210px;
+    }
+
+    .botao-menu{
+        width: 5%;
+    }
+    .botao-pesquisa{
+        width: 5%;
     }
 }
 
